@@ -17,11 +17,14 @@ public class PruebaFicheros {
     public static void main(String[] args) {
         // TODO code application logic here
         LeerFich fich = new LeerFich();
+        EscribirFich fich2 =new EscribirFich();
+        fich2.escribir("fichero4.txt");
         //fich.leerLinea("Z:\\Programacion\\Evaluacion2\\Extras\\pruebaFicheros\\fichero1.txt");
-        //fich.leerElemento("fichero1");
+        //fich.leerElemento("fichero4.txt");
         //fich.leerNum("fichero2.txt");
         //fich.leerDelimit("fichero2.txt",",");
-        fich.leerArray("fichero3.txt",",");
+        //fich.leerArray("fichero3.txt",",");
+        fich.leerLinea("fichero4.txt");
     }
     
 }

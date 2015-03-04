@@ -1,6 +1,3 @@
-
-
-
 package pruebaficheros;
 
 /**
@@ -8,8 +5,9 @@ package pruebaficheros;
  * @author oquintansocampo
  */
 public class Alumno {
- private String nombre;
- private int nota;
+
+    private String nombre;
+    private int nota;
 
     public Alumno() {
     }
@@ -39,5 +37,5 @@ public class Alumno {
     public String toString() {
         return "Alumno{" + "nombre=" + nombre + ", nota=" + nota + '}';
     }
- 
+
 }
